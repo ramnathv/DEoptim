@@ -515,7 +515,7 @@ void devol(double VTR, double d_weight, double d_cross, int i_bs_flag,
         Rprintf("Iteration: %d bestvalit: %f bestmemit:", i_iter, t_bestC);
         for (j = 0; j < i_D; j++)
           Rprintf("%12.6f", gt_bestP[j]);
-        Rprintf("\n");
+        Rprintf("\r");
       }
     }
 
