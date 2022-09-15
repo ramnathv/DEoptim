@@ -542,7 +542,7 @@ void devol(double VTR, double d_weight, double d_cross, int i_bs_flag,
       k++;
     }
   }
-
+  Rprintf("\n");
   *gi_iter = i_iter;
   *gt_bestC = t_bestC;
 
